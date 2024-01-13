@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+:root{
+
+    /* ### Primary */
+
+    --Yellow: hsl(47, 88%, 63%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    ---Black: hsl(0, 0%, 7%);
+
+}
+
+p{
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--Yellow);
+    
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    max-width: 385px;
+    height: 520px;
+    background: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    border: 1px solid var(---Black);
+    box-shadow: 10px 10px var(---Black);
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.card-tittle p{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: var(--Yellow);
+    font-weight: 800;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.card-date{
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card-subtittle{
+    font-size: 12px;
+}
+
+.card-subtittle:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.card-text p{
+    line-height: 1.5;
+    color: var(--Grey);
+    font-weight: 400;
+    margin: 18px 0px 16px 0;
+}
+
+.card-profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-profile .avatar{
+    width: 32px;
+}
+
+.avatar .avatar-img{
+    width: 100%;
+}
+
+.avatar-name{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 750px) {
+    .card{
+        max-width: 330px;
+        height: 500px;
+    }
+
+    .card-subtittle{
+        font-size: 10px;
+    }
+
+    .card-text p{
+        font-size: 14px;
+        margin: 26px 0px 30px 0;
+    }
+}
