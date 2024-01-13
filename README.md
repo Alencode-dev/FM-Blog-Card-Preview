@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Clic here](https://www.frontendmentor.io/solutions/responsive-blog-card-preview-SZUbxsr4nY)
+- Live Site URL: [Clic here](https://fmblogcardpreview.netlify.app/)
 
 ## My process
 
@@ -40,4 +40,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Alencode](https://www.frontendmentor.io/profile/Alencode-dev)
